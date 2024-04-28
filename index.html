@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Word-counter</title>
+  </head>
+  <body id="body">
+    <header>
+      <h1>Word-counter mini app</h1>
+      <p>Count letters, Numbers, Capital letters and words in the text</p>
+      <button class="button" id="random-color">Random Color</button>
+    </header>
+    <main id="main-container">
+      <button type="button" class="button" id="button-letters">letters</button>
+
+      <button type="button" class="button" id="button-numbers">Numbers</button>
+      <button type="button" class="button" id="button-Cletters">
+        Capital letters
+      </button>
+      <button type="button" class="button" id="button-words">Words</button>
+    </main>
+    <div class="input-container" id="input-container">
+      <input
+        type="text"
+        name="input-text"
+        id="input-text"
+        class="input-text"
+        placeholder="type your text or numbers"
+        autocomplete="off"
+        min="10"
+        max="60"
+      />
+      <button class="submit" type="submit" id="submit">Submit</button>
+    </div>
+    <p id="result"></p>
+    <footer></footer>
+  </body>
+</html>
